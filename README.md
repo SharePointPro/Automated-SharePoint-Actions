@@ -7,3 +7,4 @@ Most actions are run directly from Chrome Web Inspector.
 
 # RemoveUserFromGroups.js
 Remove a user using their email address from every group within a site collection. 
+Usage: Update user_email variable and paste into Chrome Web Inspector Console.
