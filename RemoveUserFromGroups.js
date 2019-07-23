@@ -22,6 +22,7 @@ clientContext.executeQueryAsync(() => {
         if (currentUser.get_email() === user_email){
         current.get_users().removeById(user.get_id());
         clientContext.load(current.get_users());
+	clientContext.executeQueryAsync();
         actioned = true;
       }
     }
